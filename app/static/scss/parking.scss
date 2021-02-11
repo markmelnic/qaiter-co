@@ -87,3 +87,21 @@ body {
         border-left: .2em solid $text;
     }
 }
+
+@media (max-width: 800px) {
+    body {
+        h1 {
+            font-size: 2em;
+            line-height: 1.2em;
+        }
+
+        .narrower {
+            max-width: 100%;
+        }
+
+        .content {
+            max-width: 90%;
+            padding-left: .5em;
+        }
+    }
+}
