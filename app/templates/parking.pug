@@ -1,0 +1,30 @@
+!!! 5
+
+html(lang="en")
+
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title qaiter
+
+        link(rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}")
+
+        link(rel="stylesheet" href="{{ url_for( 'static', filename='css/parking.css') }}")
+
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+        script(src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous")
+
+    body
+        div(class="content")
+            h4(class="spacer") qaiter.co
+            h1 There are 
+                span(class="b") QR-Codes
+            h1 Then there are 
+                span(class="b") QR-Conveniences
+            h1 That's what we're all about
+            p(class="spacer narrower") If you have a
+                spanclass(class="b") café / bar / restaurant
+                | , we bet there is no better way for you to improve customer convenience and cut down costs without using the technology we're developing.
+                | Excuse the ambiguity, that's to grab your interest.
+                | If that little information sounds of as little interest, send an email, you never know whether an envelope can start a tornado.
+            h4(class="spacer narrower") commerce.markmelnic@gmail.com
