@@ -2,11 +2,12 @@ $background: #F6B955;
 $text: #161C1C;
 
 :root {
-    font-family: 'Montserrat';
+    font-family: Montserrat, sans-serif
 }
 
 ::-webkit-scrollbar {
     display: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,6 +17,13 @@ body {
     overflow: hidden;
     background: $background;
     color: $text;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
     h1 {
         margin: 0px;
@@ -59,7 +67,7 @@ body {
 
     p {
         margin: 0px;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: .1px;
@@ -85,6 +93,15 @@ body {
 
         padding-left: 2em;
         border-left: .2em solid $text;
+    }
+
+    .email {
+        -webkit-touch-callout: text;
+        -webkit-user-select: text;
+        -khtml-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;    
     }
 }
 
